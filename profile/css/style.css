@@ -141,4 +141,36 @@ a:hover {
 .footer p {
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  .wrapper {
+    max-width: 100%;
+    margin: 0 10px 100px 10px;
+  }
+  .header {
+    margin: 0 10px;
+  }
+  .about .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bicycle ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bicycle ul li {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
