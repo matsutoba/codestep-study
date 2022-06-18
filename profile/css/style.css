@@ -1,0 +1,144 @@
+@import url(destyle.css);
+/* Common */
+html {
+  width: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  font-size: 1.6rem;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto 100px auto;
+}
+
+.section_title {
+  font-weight: bold;
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 60px;
+  -webkit-text-decoration: underline solid black 2px;
+          text-decoration: underline solid black 2px;
+  text-underline-offset: 16px;
+}
+
+/* header */
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.header .logo {
+  width: 120px;
+  padding: 10px 0;
+}
+
+.header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .menu li {
+  margin-left: 30px;
+}
+
+/* Main Visual */
+.main_visual {
+  margin-bottom: 80px;
+}
+
+.main_visual img {
+  width: 100%;
+  height: 600px;
+  max-width: 1920px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* About */
+.about .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about .content img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.about .content .name {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about .content .text {
+  font-size: 1.6rem;
+  width: 400px;
+}
+
+/* Bicycle */
+.bicycle ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bicycle ul li {
+  width: 30%;
+}
+
+.bicycle ul li img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.bicycle ul li .title {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.bicycle ul li .text {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+/* Footer */
+.footer {
+  margin-bottom: 10px;
+}
+
+.footer p {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
