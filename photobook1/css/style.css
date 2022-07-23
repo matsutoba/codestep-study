@@ -131,4 +131,75 @@ a:hover {
 .footer {
   padding-left: 200px;
 }
+
+@media (max-width: 600px) {
+  body {
+    font-size: 1.4rem;
+  }
+  .wrapper {
+    margin: 0;
+  }
+  .section_title {
+    padding-left: 0px;
+  }
+  /* Header */
+  .header {
+    padding-top: 60px;
+    margin-bottom: 16px;
+  }
+  .header img {
+    display: inline-block;
+    width: 160px;
+    height: 18px;
+  }
+  /* Main Visual */
+  .main_visual {
+    margin-bottom: 60px;
+  }
+  .main_visual img {
+    height: 142px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  /* Index */
+  .index {
+    background: #fff;
+    padding: 64px 40px;
+  }
+  .index div {
+    margin: 0;
+  }
+  .index ol {
+    margin-left: 18px;
+  }
+  .index ol li {
+    list-style: decimal;
+    margin-bottom: 20px;
+  }
+  .index ol li:last-of-type {
+    margin-bottom: 0;
+  }
+  /* Detail */
+  .detail {
+    padding: 64px 40px;
+  }
+  .detail .content {
+    display: block;
+  }
+  .detail .content img {
+    width: 100%;
+    /*
+        width: 295px;
+        height: 295px;
+        */
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  .detail .content .info {
+    width: 100%;
+  }
+  .footer {
+    padding: 16px 40px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
